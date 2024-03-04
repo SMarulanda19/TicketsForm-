@@ -1,0 +1,89 @@
+.MyForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  border: 3px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
+
+.MyForm h2 {
+  margin: 0 0 10px;
+}
+
+.MyForm input[type="text"],
+.MyForm textarea,
+.MyForm select {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.MyForm textarea {
+  height: 100px;
+}
+
+.MyForm select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23333' stroke-linecap='square' stroke-miterlimit='10' d='M0 2l8 8 8-8'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  padding-right: 30px;
+}
+
+.MyForm input[type="checkbox"] {
+  appearance: none;
+  width: auto;
+  height: 20px;
+  background-color: #c9c8c8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.MyForm input[type="checkbox"]:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #bcbcbc;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.MyForm input[type="checkbox"]:checked:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #4caf50;
+  border-radius: 3px;
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.MyForm button[type="submit"] {
+  background-color: #4c7daf;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
