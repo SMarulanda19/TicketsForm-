@@ -88,12 +88,22 @@
 }
 
 
-.TablaTickets{
-  display: flex;    
-  max-width: 20%;
+.TablaTickets {
+  display: flex;
   flex-direction: column;
-  
+  max-width: 35%;
+  border: 3px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
 }
+
+.Ticket {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+
 
 .principal{
   display: flex;
